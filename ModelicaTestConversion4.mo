@@ -351,6 +351,21 @@ Conversion test for <a href=\"https://github.com/modelica/ModelicaStandardLibrar
 </html>"));
       end Issue2899;
 
+      model Issue3022 "Conversion test for #3022"
+        extends Modelica.Icons.Example;
+        Modelica.SIunits.Voltage v = potentialSensor.phi;
+        Modelica.Electrical.Analog.Sensors.PotentialSensor potentialSensor annotation (Placement(transformation(extent={{0,-10},{20,10}})));
+        Modelica.Electrical.Analog.Basic.Ground ground annotation (Placement(transformation(extent={{-50,-20},{-30,0}})));
+      equation
+        connect(ground.p, potentialSensor.p) annotation (Line(points={{-40,0},{0,0}}, color={0,0,255}));
+        annotation (Icon(coordinateSystem(preserveAspectRatio=false)), Diagram(coordinateSystem(preserveAspectRatio=false)),
+          Documentation(info="<html>
+<p>
+Conversion test for <a href=\"https://github.com/modelica/ModelicaStandardLibrary/issues/3022\">#3022</a>.
+</p>
+</html>"));
+      end Issue3022;
+
       model Issue3024 "Conversion test for #3024"
         extends Modelica.Icons.Example;
         import pi = Modelica.Electrical.Analog.Basic.OpAmpDetailed.Pi;
@@ -681,6 +696,23 @@ Conversion test for <a href=\"https://github.com/modelica/ModelicaStandardLibrar
 </p>
 </html>"));
       end Issue2993;
+
+      model Issue3022 "Conversion test for #3022"
+        extends Modelica.Icons.Example;
+        Modelica.SIunits.Voltage v[:] = potentialSensor.phi;
+        Modelica.Electrical.Polyphase.Sensors.PotentialSensor potentialSensor annotation (Placement(transformation(extent={{0,-10},{20,10}})));
+        Modelica.Electrical.Analog.Basic.Ground ground annotation (Placement(transformation(extent={{-50,-20},{-30,0}})));
+        Modelica.Electrical.Polyphase.Basic.Star star annotation (Placement(transformation(extent={{-10,-10},{-30,10}})));
+      equation
+        connect(ground.p, star.pin_n) annotation (Line(points={{-40,0},{-30,0}}, color={0,0,255}));
+        connect(star.plug_p, potentialSensor.plug_p) annotation (Line(points={{-10,0},{0,0}}, color={0,0,255}));
+        annotation (Icon(coordinateSystem(preserveAspectRatio=false)), Diagram(coordinateSystem(preserveAspectRatio=false)),
+          Documentation(info="<html>
+<p>
+Conversion test for <a href=\"https://github.com/modelica/ModelicaStandardLibrary/issues/3022\">#3022</a>.
+</p>
+</html>"));
+      end Issue3022;
 
       model Issue3035 "Conversion test for #3035"
         extends Modelica.Icons.Example;
