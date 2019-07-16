@@ -700,9 +700,9 @@ Conversion test for <a href=\"https://github.com/modelica/ModelicaStandardLibrar
       model Issue3022 "Conversion test for #3022"
         extends Modelica.Icons.Example;
         Modelica.SIunits.Voltage v[:] = potentialSensor.phi;
-        Modelica.Electrical.Polyphase.Sensors.PotentialSensor potentialSensor annotation (Placement(transformation(extent={{0,-10},{20,10}})));
+        Modelica.Electrical.MultiPhase.Sensors.PotentialSensor potentialSensor annotation (Placement(transformation(extent={{0,-10},{20,10}})));
         Modelica.Electrical.Analog.Basic.Ground ground annotation (Placement(transformation(extent={{-50,-20},{-30,0}})));
-        Modelica.Electrical.Polyphase.Basic.Star star annotation (Placement(transformation(extent={{-10,-10},{-30,10}})));
+        Modelica.Electrical.MultiPhase.Basic.Star star annotation (Placement(transformation(extent={{-10,-10},{-30,10}})));
       equation
         connect(ground.p, star.pin_n) annotation (Line(points={{-40,0},{-30,0}}, color={0,0,255}));
         connect(star.plug_p, potentialSensor.plug_p) annotation (Line(points={{-10,0},{0,0}}, color={0,0,255}));
