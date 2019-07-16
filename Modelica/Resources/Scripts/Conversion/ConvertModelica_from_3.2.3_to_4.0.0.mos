@@ -330,3 +330,9 @@ convertElement({"Modelica.Electrical.Machines.BasicMachines.SynchronousInduction
                 "Modelica.Electrical.Machines.BasicMachines.SynchronousInductionMachines.SM_ElectricalExcited",
                 "Modelica.Electrical.Machines.BasicMachines.SynchronousInductionMachines.SM_ReluctanceRotor"},
                 "airGapR", "airGap")
+
+// Issue #3022
+convertElement({"Modelica.Electrical.Analog.Sensors.PotentialSensor",
+                "Modelica.Electrical.Polyphase.Sensors.PotentialSensor"},
+                "phi",
+                "v"),
