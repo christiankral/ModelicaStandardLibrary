@@ -8,12 +8,10 @@ package Sensors "Potential, voltage, current, and power sensors"
 
     Interfaces.PositivePin p "pin to be measured" annotation (Placement(
           transformation(extent={{-110,-10},{-90,10}})));
-    Modelica.Blocks.Interfaces.RealOutput phi(unit="V")
-      "Absolute voltage potential as output signal"
-        annotation (Placement(transformation(extent={{100,-10},{120,10}})));
+    Modelica.Blocks.Interfaces.RealOutput v(unit="V") "Voltage potential as output signal" annotation (Placement(transformation(extent={{100,-10},{120,10}})));
   equation
     p.i = 0;
-    phi = p.v;
+    v = p.v;
     annotation (
       Icon(coordinateSystem(
           preserveAspectRatio=true,

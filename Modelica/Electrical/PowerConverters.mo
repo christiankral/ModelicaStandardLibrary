@@ -3199,14 +3199,12 @@ center tap <code>2*m</code> pulse rectifiers</a>, where <code>m</code> is the nu
             annotation (Line(points={{10,50},{20,50}}, color={0,0,255}));
           connect(toSpacePhasor.y, rotator.u)
             annotation (Line(points={{-9,-40},{-2,-40}},   color={0,0,127}));
-          connect(potentialSensor.phi, toSpacePhasor.u) annotation (Line(points={{41,50},
-                  {50,50},{50,-20},{-40,-20},{-40,-40},{-32,-40}}, color={0,0,127}));
+          connect(potentialSensor.v, toSpacePhasor.u) annotation (Line(points={{41,50},{50,50},{50,-20},{-40,-20},{-40,-40},{-32,-40}}, color={0,0,127}));
           connect(const.y, integrator.u)
             annotation (Line(points={{-39,-70},{-32,-70}}, color={0,0,127}));
           connect(integrator.y, rotator.angle)
             annotation (Line(points={{-9,-70},{10,-70},{10,-52}},color={0,0,127}));
-          connect(potentialSensor.phi[1], harmonic.u)
-            annotation (Line(points={{41,50},{58,50}}, color={0,0,127}));
+          connect(potentialSensor.v[1], harmonic.u) annotation (Line(points={{41,50},{58,50}}, color={0,0,127}));
           connect(rotator.y, filter.u)
             annotation (Line(points={{21,-40},{28,-40}}, color={0,0,127}));
           connect(filter.y, toPolar.u)
@@ -4757,8 +4755,7 @@ Half of the semiconductors of the <code>2*m</code> pulse bridge rectifier are co
             points={{-100,0},{-90,0}}, color={0,0,255}));
         connect(gain.y, twomPulse.v) annotation (Line(
             points={{-7,0},{-2,0}}, color={0,0,127}));
-        connect(voltageSensor.phi, gain.u) annotation (Line(
-            points={{-39,0},{-30,0}}, color={0,0,127}));
+        connect(voltageSensor.v, gain.u) annotation (Line(points={{-39,0},{-30,0}}, color={0,0,127}));
         connect(twomPulse.fire_n, fire_n) annotation (Line(
             points={{16,11},{16,80},{60,80},{60,110}}, color={255,0,255}));
         connect(twomPulse.fire_p, fire_p) annotation (Line(

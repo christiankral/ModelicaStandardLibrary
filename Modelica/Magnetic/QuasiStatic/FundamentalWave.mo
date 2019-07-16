@@ -1490,8 +1490,8 @@ Simulate for 2.5 seconds and plot (versus time):</p>
             effectiveStatorTurns=imcData.effectiveStatorTurns,
             alpha20r=imcData.alpha20r,
             TrOperational=293.15) annotation (Placement(transformation(extent={{60,-90},{40,-70}})));
-          Electrical.Polyphase.Sensors.CurrentQuasiRMSSensor
-                                                            currentQuasiRMSSensor(m=m)
+          Electrical.Polyphase.Sensors.CurrentQuasiRMSSensor currentQuasiRMSSensor(
+                                                                                  m=m)
                                                                                   annotation (Placement(transformation(extent={{20,0},{40,-20}})));
           Modelica.Electrical.Machines.Utilities.VfController
                                                      vfController(
@@ -1681,12 +1681,10 @@ The mechanical load is a constant torque like a conveyor (with regularization ar
             alpha20r=imcData.alpha20r) annotation (Placement(transformation(extent={{-20,60},{0,80}})));
           Utilities.MultiTerminalBox terminalBoxQS(terminalConnection="D", m=m)
                                                                            annotation (Placement(transformation(extent={{-20,76},{0,96}})));
-          Electrical.QuasiStatic.Polyphase.Sensors.PowerSensor electricalPowerSensorQS(m=m)
-                                                                                            annotation (Placement(transformation(
+          Electrical.QuasiStatic.Polyphase.Sensors.PowerSensor electricalPowerSensorQS(m=m) annotation (Placement(transformation(
                 extent={{-10,-10},{10,10}},
                 origin={-40,90})));
-          Electrical.QuasiStatic.Polyphase.Sensors.CurrentQuasiRMSSensor currentQuasiRMSSensorQS(m=m)
-                                                                                                      annotation (Placement(transformation(
+          Electrical.QuasiStatic.Polyphase.Sensors.CurrentQuasiRMSSensor currentQuasiRMSSensorQS(m=m) annotation (Placement(transformation(
                 origin={-70,90},
                 extent={{-10,10},{10,-10}})));
           Electrical.QuasiStatic.Polyphase.Sources.VoltageSource sineVoltageQS(
@@ -2474,8 +2472,7 @@ Simulate for 1.5 seconds and plot (versus time):
           extends Modelica.Icons.Example;
           import Modelica.Constants.pi;
           parameter Integer m=3 "Number of phases";
-          output Modelica.SIunits.Voltage Vtr=potentialSensor.phi[1]
-            "Transient voltage";
+          output Modelica.SIunits.Voltage Vtr=potentialSensor.v[1] "Transient voltage";
           output Modelica.SIunits.Voltage Vqs=potentialSensorQS.abs_y[1]
             "QS voltage";
           FundamentalWave.BasicMachines.SynchronousMachines.SM_PermanentMagnet
@@ -3072,8 +3069,7 @@ Simulate for 1 second and plot (versus time):
                 extent={{-10,-10},{10,10}},
                 rotation=90,
                 origin={30,60})));
-          Electrical.QuasiStatic.Polyphase.Sources.ReferenceCurrentSource referenceCurrentSourceQS(m=m)
-                                                                                                        annotation (Placement(transformation(
+          Electrical.QuasiStatic.Polyphase.Sources.ReferenceCurrentSource referenceCurrentSourceQS(m=m) annotation (Placement(transformation(
                 extent={{10,-10},{-10,10}},
                 rotation=90,
                 origin={0,90})));

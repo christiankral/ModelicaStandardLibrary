@@ -2372,8 +2372,7 @@ and accelerating inertias. At time tStep a load step is applied.</p>
           annotation (Line(points={{-20,10},{-20,12},{-10,12}},color={0,0,255}));
         connect(potentialSensor.plug_p, terminalBox.plugSupply)
           annotation (Line(points={{0,20},{0,12}}, color={0,0,255}));
-        connect(potentialSensor.phi, toSpacePhasor.u) annotation (Line(points={{8.88178e-16,
-                41},{8.88178e-16,50},{8,50}}, color={0,0,127}));
+        connect(potentialSensor.v, toSpacePhasor.u) annotation (Line(points={{8.88178e-16,41},{8.88178e-16,50},{8,50}}, color={0,0,127}));
         connect(constantSpeed.flange, smpm.flange)
           annotation (Line(points={{32,0},{10,0}}));
         connect(smpm.flange, hallSensor.flange)
