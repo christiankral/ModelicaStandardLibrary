@@ -8,15 +8,15 @@ people working mostly with Celsius units, since all models
 in package HeatTransfer are based on Kelvin units.
 </p>
 <p>
-Note, that in package SIunits.Conversions, functions are provided
+Note, that in package Modelica.SIunits.Conversions, functions are provided
 to convert between the units Kelvin, degree Celsius, degree Fahrenheit,
 and degree Rankine. These functions allow, e.g., a direct conversion
 of units at all places where Kelvin is required as parameter.
 Example:
 </p>
 <pre>
-    <strong>import</strong> SIunits.Conversions.*;
-    Modelica.Thermal.HeatTransfer.HeatCapacitor C(T0 = from_degC(20));
+    <strong>import</strong> Modelica.SIunits.Conversions;
+    Modelica.Thermal.HeatTransfer.HeatCapacitor C(T0 = Conversions.from_degC(20));
 </pre>
 </html>"));
 end Celsius;
