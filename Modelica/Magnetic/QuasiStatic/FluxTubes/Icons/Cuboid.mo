@@ -6,20 +6,20 @@ partial model Cuboid "Icon for cuboid"
           textString="%name",
           textColor={0,0,255}),
         Rectangle(
-          extent={{-60,20},{40,-40}},
+          extent={{-68,20},{50,-40}},
           lineColor={255,170,85},
           fillColor={255,255,255},
           fillPattern=FillPattern.Solid),
         Polygon(
-          points={{-60,20},{-40,40},{60,40},{40,20},{-60,20}},
+          points={{-68,20},{-48,40},{70,40},{50,20},{-68,20}},
           lineColor={255,170,85},
           fillColor={255,255,255},
           fillPattern=FillPattern.Solid),
         Polygon(
-          points={{40,20},{60,40},{60,-20},{40,-40},{40,20}},
+          points={{50,20},{70,40},{70,-20},{50,-40},{50,20}},
           lineColor={255,170,85},
           fillColor={215,215,215},
           fillPattern=FillPattern.Solid),
-        Line(points={{-60,0},{-100,0}}, color={255,170,85}),
-        Line(points={{100,0},{50,0}},   color={255,170,85})}));
+        Line(points={{-70,0},{-100,0}}, color={255,170,85}),
+        Line(points={{100,0},{60,0}},   color={255,170,85})}));
 end Cuboid;
