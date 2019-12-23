@@ -3,7 +3,6 @@ model CellRCStack
   "Battery with open-circuit voltage dependent on state of charge, self-discharge, inner resistance and a series of RC-elements"
   extends BaseClasses.BaseCellStack(r0(final R=Ns*cellData.R0/Np), redeclare
       ParameterRecords.TransientData.CellData cellData);
-  extends Icons.TransientRC;
   Modelica.Electrical.Analog.Basic.Resistor resistor[cellData.nRC](
     final R=Ns*cellData.rcData.R/Np,
     each final T_ref=cellData.T_ref,
@@ -34,7 +33,24 @@ equation
     annotation (Line(points={{50,-20},{50,0},{100,0}},color={0,0,255}));
   annotation (
     Icon(coordinateSystem(preserveAspectRatio=true, extent={{-100,-100},{100,
-            100}})),
+            100}}), graphics={
+        Line(
+          points={{-70,20},{-10,20}},
+          color={255,255,255}),
+        Line(points={{-10,4},{-10,36}}, color={255,255,255}),
+        Line(points={{10,4},{10,36}}, color={255,255,255}),
+        Line(
+          points={{10,20},{70,20}},
+          color={255,255,255}),
+        Rectangle(extent={{-46,-6},{46,-34}}, lineColor={255,255,255}),
+        Line(
+          origin={8,-20},
+          points={{-78,0},{-54,0}},
+          color={255,255,255}),
+        Line(
+          origin={146,-20},
+          points={{-100,0},{-76,0}},
+          color={255,255,255})}),
     Documentation(info="<html>
 <p>
 Extends the model <a href=\"modelica://Modelica.Electrical.Batteries.BatteryStacks.CellStack\">CellStack</a> by a series of RC-elements, describing the transient behaviour of the battery.
