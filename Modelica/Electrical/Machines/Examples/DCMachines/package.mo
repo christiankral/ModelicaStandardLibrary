@@ -2,9 +2,6 @@ within Modelica.Electrical.Machines.Examples;
 package DCMachines "Test examples of DC machines"
   extends Modelica.Icons.ExamplesPackage;
 
-
-
-
   /*
   model DC_CompareCharacteristics
     "Test example: Compare torque-speed characteristic of DC motors"
