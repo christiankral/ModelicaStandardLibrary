@@ -79,7 +79,6 @@ model NonLinearInductor "Non linear inductor with ferromagnetic core"
   Magnetic.FluxTubes.Shapes.FixedShape.GenericFluxTube r_mFe(
     l=4*0.065,
     material=Magnetic.FluxTubes.Material.SoftMagnetic.ElectricSheet.M350_50A(),
-
     B(start=0),
     mu_rConst=655,
     nonLinearPermeability=true,
@@ -88,6 +87,7 @@ model NonLinearInductor "Non linear inductor with ferromagnetic core"
         origin={90,50},
         extent={{-10,-10},{10,10}},
         rotation=270)));
+
   Modelica.Electrical.Analog.Basic.Ground ground annotation (Placement(
         transformation(extent={{-100,10},{-80,30}})));
   Modelica.Electrical.QuasiStatic.SinglePhase.Sensors.CurrentSensor

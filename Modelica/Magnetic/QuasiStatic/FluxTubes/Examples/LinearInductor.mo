@@ -72,7 +72,6 @@ model LinearInductor "Linear inductor with ferromagnetic core"
     mu_rConst=1000,
     l=4*0.065,
     material=Magnetic.FluxTubes.Material.SoftMagnetic.ElectricSheet.M350_50A(),
-
     B(start=0),
     nonLinearPermeability=false,
     area=0.025^2) "Reluctance of ferromagnetic inductor core" annotation (
@@ -80,6 +79,7 @@ model LinearInductor "Linear inductor with ferromagnetic core"
         origin={80,50},
         extent={{-10,-10},{10,10}},
         rotation=270)));
+
   Modelica.Electrical.Analog.Basic.Ground ground annotation (Placement(
         transformation(extent={{-90,10},{-70,30}})));
   Modelica.Electrical.QuasiStatic.SinglePhase.Sensors.CurrentSensor
