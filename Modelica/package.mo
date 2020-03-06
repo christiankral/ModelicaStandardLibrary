@@ -2402,6 +2402,12 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td>Dymola 2020x</td>
   </tr>
   <tr>
+    <td>EDrives</td>
+    <td>1.0.1</td>
+    <td>Anton Haumer and Christian Kral</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
     <td>IBPSA</td>
     <td>&nbsp;&gt;&nbsp;3.0.0</td>
     <td>IBPSA Project 1</td>
