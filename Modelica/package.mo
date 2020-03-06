@@ -2426,6 +2426,12 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td>Dymola 2020x</td>
   </tr>
   <tr>
+    <td><a href=\"https://github.com/christiankral/PhotoVoltaics\">PhotoVoltaics</a></td>
+    <td>1.6.0</td>
+    <td>Christian Kral</td>
+    <td>Dymola 2020</td>
+  </tr>
+  <tr>
     <td><a href=\"https://github.com/dzimmer/PlanarMechanics\">PlanarMechanics</a></td>
     <td>1.4.1</td>
     <td>Dirk Zimmer</td>
