@@ -2408,6 +2408,12 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td>Dymola 2020x</td>
   </tr>
   <tr>
+    <td><a href=\"https://github.com/christiankral/KeyWordIO\">KeywordIO</a></td>
+    <td>0.9.0</td>
+    <td>Christian Kral</td>
+    <td>Dymola 2020</td>
+  </tr>
+  <tr>
     <td>Modelica_DeviceDrivers</td>
     <td>1.8.1</td>
     <td>DLR, ESI ITI, and Linköping University (PELAB)</td>
