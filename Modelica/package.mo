@@ -2382,21 +2382,56 @@ summarized in a <a href=\"modelica://Modelica/Resources/Documentation/Version-4.
 </p>
 
 <p>
-The following Modelica packages have been tested that they work together with this release of package Modelica
+The following <font color=\"blue\"><strong>Modelica packages</strong></font> have been tested that they work together with this release of package Modelica
 (alphabetical list).
 Hereby simulation results of the listed packages have been produced with package Modelica version 3.2.3 and
-compared with the simulation results produced with version 4.0.0 Beta.1.
-The tests have been performed with Dymola 2020x:
+compared with the simulation results produced with version 4.0.0 Beta.1:
 </p>
 
-<ul>
-<li><a href=\"https://github.com/lbl-srg/modelica-buildings/issues/1789\">Buildings</a>&nbsp;&gt;&nbsp;6.0.0 (LBNL)</li>
-<li>IBPSA&nbsp;&gt;&nbsp;3.0.0 (IBPSA Project 1)</li>
-<li>Modelica_DeviceDrivers (DLR, ESI ITI, and Linköping University (PELAB)) 1.8.1</li>
-<li>Optimization 2.2.4 (DLR)</li>
-<li>PlanarMechanics (Dirk Zimmer) 1.4.1</li>
-<li>VehicleInterfaces (Modelica Association) 1.2.5</li>
-</ul>
+<table border=\"1\" cellspacing=\"0\" cellpadding=\"2\">
+  <tr>
+    <th>Library</th>
+    <th>Version</th>
+    <th>Provider</th>
+    <th>Test tool</th>
+  </tr>
+  <tr>
+    <td><a href=\"https://github.com/lbl-srg/modelica-buildings/issues/1789\">Buildings</a></td>
+    <td>&nbsp;&gt;&nbsp;6.0.0</td>
+    <td>LBNL</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
+    <td>IBPSA</td>
+    <td>&nbsp;&gt;&nbsp;3.0.0</td>
+    <td>IBPSA Project 1</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
+    <td>Modelica_DeviceDrivers</td>
+    <td>1.8.1</td>
+    <td>DLR, ESI ITI, and Linköping University (PELAB)</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
+    <td>Optimization</td>
+    <td>2.2.4</td>
+    <td>DLR</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
+    <td>PlanarMechanics</td>
+    <td>1.4.1</td>
+    <td>Dirk Zimmer</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
+    <td>VehicleInterfaces</td>
+    <td>1.2.5</td>
+    <td>Modelica Association</td>
+    <td>Dymola 2020x</td>
+  </tr>
+</table>
 
 <p><br>
 The following <font color=\"blue\"><strong>new libraries</strong></font> have been added:
