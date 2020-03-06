@@ -2402,9 +2402,27 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td>Dymola 2020x</td>
   </tr>
   <tr>
+    <td><a href=\"https://github.com/AHaumer/DriveControl\">DriveControl</a></td>
+    <td>4.0.0</td>
+    <td>Anton Haumer</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
     <td>EDrives</td>
     <td>1.0.1</td>
     <td>Anton Haumer and Christian Kral</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
+    <td><a href=\"https://github.com/AHaumer/ElectricalMachines\">ElectricalMachines</td>
+    <td>0.9.1</td>
+    <td>Anton Haumer</td>
+    <td>Dymola 2020x</td>
+  </tr>
+  <tr>
+    <td><a href=\"https://github.com/AHaumer/EMOTH\">EMOTH</td>
+    <td>1.4.1</td>
+    <td>Anton Haumer</td>
     <td>Dymola 2020x</td>
   </tr>
   <tr>
