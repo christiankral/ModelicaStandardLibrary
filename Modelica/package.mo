@@ -2432,6 +2432,12 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td>Dymola 2020x</td>
   </tr>
   <tr>
+    <td><a href=\"https://github.com/christiankral/HanserModelica\">HanserModelica</td>
+    <td>1.1.0</td>
+    <td>Christian Kral</td>
+    <td>Dymola 2020</td>
+  </tr>
+  <tr>
     <td>IBPSA</td>
     <td>&nbsp;&gt;&nbsp;3.0.0</td>
     <td>IBPSA Project 1</td>
