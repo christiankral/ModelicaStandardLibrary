@@ -2420,13 +2420,13 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td>Dymola 2020x</td>
   </tr>
   <tr>
-    <td>PlanarMechanics</td>
+    <td><a href=\"https://github.com/dzimmer/PlanarMechanics\">PlanarMechanics</a></td>
     <td>1.4.1</td>
     <td>Dirk Zimmer</td>
     <td>Dymola 2020x</td>
   </tr>
   <tr>
-    <td>VehicleInterfaces</td>
+    <td><a href=\"https://github.com/modelica/VehicleInterfaces\">VehicleInterfaces</a></td>
     <td>1.2.5</td>
     <td>Modelica Association</td>
     <td>Dymola 2020x</td>
