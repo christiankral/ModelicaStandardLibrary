@@ -2420,6 +2420,12 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td>Dymola 2020x</td>
   </tr>
   <tr>
+    <td><a href=\"https://github.com/christiankral/ElectroMechanicalDrives\">ElectroMechanicalDrives</td>
+    <td>2.2.0</td>
+    <td>Christian Kral</td>
+    <td>Dymola 2020</td>
+  </tr>
+  <tr>
     <td><a href=\"https://github.com/AHaumer/EMOTH\">EMOTH</td>
     <td>1.4.1</td>
     <td>Anton Haumer</td>
