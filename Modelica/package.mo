@@ -2399,91 +2399,91 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
     <td><a href=\"https://github.com/lbl-srg/modelica-buildings/issues/1789\">Buildings</a></td>
     <td>&nbsp;&gt;&nbsp;6.0.0</td>
     <td>LBNL</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/AHaumer/DriveControl\">DriveControl</a></td>
+    <td>DriveControl</td>
     <td>4.0.0</td>
     <td>Anton Haumer</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>EDrives</td>
     <td>1.0.1</td>
     <td>Anton Haumer and Christian Kral</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/AHaumer/ElectricalMachines\">ElectricalMachines</td>
+    <td>ElectricalMachines</td>
     <td>0.9.1</td>
     <td>Anton Haumer</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/christiankral/ElectroMechanicalDrives\">ElectroMechanicalDrives</td>
+    <td>ElectroMechanicalDrives</td>
     <td>2.2.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/AHaumer/EMOTH\">EMOTH</td>
+    <td>EMOTH</td>
     <td>1.4.1</td>
     <td>Anton Haumer</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/christiankral/HanserModelica\">HanserModelica</td>
+    <td>HanserModelica</td>
     <td>1.1.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>IBPSA</td>
     <td>&nbsp;&gt;&nbsp;3.0.0</td>
     <td>IBPSA Project 1</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/christiankral/KeyWordIO\">KeywordIO</a></td>
+    <td>KeywordIO</td>
     <td>0.9.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>Modelica_DeviceDrivers</td>
     <td>1.8.1</td>
     <td>DLR, ESI ITI, and Linköping University (PELAB)</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>Optimization</td>
     <td>2.2.4</td>
     <td>DLR</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/christiankral/PhotoVoltaics\">PhotoVoltaics</a></td>
+    <td>PhotoVoltaics</td>
     <td>1.6.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/dzimmer/PlanarMechanics\">PlanarMechanics</a></td>
+    <td>PlanarMechanics</td>
     <td>1.4.1</td>
     <td>Dirk Zimmer</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/modelica/VehicleInterfaces\">VehicleInterfaces</a></td>
+    <td>VehicleInterfaces</td>
     <td>1.2.5</td>
     <td>Modelica Association</td>
-    <td>Dymola 2020x</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
-    <td><a href=\"https://github.com/christiankral/WindPowerPlants\">WindPowerPlants</a></td>
+    <td>WindPowerPlants</td>
     <td>1.2.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020</td>
+    <td>Dymola 2020/2020x</td>
   </tr>
 </table>
 
