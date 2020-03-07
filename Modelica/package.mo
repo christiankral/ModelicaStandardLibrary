@@ -2392,7 +2392,7 @@ compared with the simulation results produced with version 4.0.0 Beta.1:
   <tr>
     <th>Library</th>
     <th>Version</th>
-    <th>Provider</th>
+    <th>Library provider</th>
     <th>Test tool</th>
   </tr>
   <tr>
