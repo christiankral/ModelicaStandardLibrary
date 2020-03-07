@@ -2393,97 +2393,81 @@ compared with the simulation results produced with version 4.0.0 Beta.1. The tes
     <th>Library</th>
     <th>Version</th>
     <th>Library provider</th>
-    <th>Test tool</th>
   </tr>
   <tr>
     <td><a href=\"https://github.com/lbl-srg/modelica-buildings/issues/1789\">Buildings</a></td>
     <td>&nbsp;&gt;&nbsp;6.0.0</td>
     <td>LBNL</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>DriveControl</td>
     <td>4.0.0</td>
     <td>Anton Haumer</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>EDrives</td>
     <td>1.0.1</td>
     <td>Anton Haumer and Christian Kral</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>ElectricalMachines</td>
     <td>0.9.1</td>
     <td>Anton Haumer</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>ElectroMechanicalDrives</td>
     <td>2.2.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>EMOTH</td>
     <td>1.4.1</td>
     <td>Anton Haumer</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>HanserModelica</td>
     <td>1.1.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>IBPSA</td>
     <td>&nbsp;&gt;&nbsp;3.0.0</td>
     <td>IBPSA Project 1</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>KeywordIO</td>
     <td>0.9.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>Modelica_DeviceDrivers</td>
     <td>1.8.1</td>
     <td>DLR, ESI ITI, and Linköping University (PELAB)</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>Optimization</td>
     <td>2.2.4</td>
     <td>DLR</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>PhotoVoltaics</td>
     <td>1.6.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>PlanarMechanics</td>
     <td>1.4.1</td>
     <td>Dirk Zimmer</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>VehicleInterfaces</td>
     <td>1.2.5</td>
     <td>Modelica Association</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
   <tr>
     <td>WindPowerPlants</td>
     <td>1.2.0</td>
     <td>Christian Kral</td>
-    <td>Dymola 2020/2020x</td>
   </tr>
 </table>
 
