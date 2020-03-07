@@ -2385,7 +2385,7 @@ summarized in a <a href=\"modelica://Modelica/Resources/Documentation/Version-4.
 The following <font color=\"blue\"><strong>Modelica packages</strong></font> have been tested that they work together with this release of package Modelica
 (alphabetical list).
 Hereby simulation results of the listed packages have been produced with package Modelica version 3.2.3 and
-compared with the simulation results produced with version 4.0.0 Beta.1:
+compared with the simulation results produced with version 4.0.0 Beta.1. The tests have been performed with Dymola 2020/2020x:
 </p>
 
 <table border=\"1\" cellspacing=\"0\" cellpadding=\"2\">
