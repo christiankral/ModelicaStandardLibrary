@@ -3,9 +3,9 @@ block TransferFunction "Complex Transfer Function"
   extends Modelica.ComplexBlocks.Interfaces.ComplexSISO;
   import Modelica.ComplexMath.j;
   parameter Real b[:]={1}
-    "Numerator coefficients of transfer function (e.g., 2*s+3 is specified as {2,3})";
+    "Numerator coefficients of transfer function (e.g., 2*(jw)+3 is specified as {2,3})";
   parameter Real a[:]={1}
-    "Denominator coefficients of transfer function (e.g., 5*s+6 is specified as {5,6})";
+    "Denominator coefficients of transfer function (e.g., 5*(jw)+6 is specified as {5,6})";
   Modelica.Blocks.Interfaces.RealInput w(unit="rad/s") "Angular frequency input" annotation (Placement(transformation(
         extent={{-20,-20},{20,20}},
         rotation=90,
