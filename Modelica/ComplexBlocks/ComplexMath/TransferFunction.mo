@@ -16,8 +16,8 @@ protected
   Complex bSum;
   Complex aSum;
 equation
-  bw = {b[i]*(j*w)^(i-1) for i in 1:size(b,1)};
-  aw = {a[i]*(j*w)^(i-1) for i in 1:size(a,1)};
+  bw = {b[i]*(j*w)^(size(b,1)-i) for i in 1:size(b,1)};
+  aw = {a[i]*(j*w)^(size(a,1)-i) for i in 1:size(a,1)};
   bSum = Complex(sum(bw.re), sum(bw.im));
   aSum = Complex(sum(aw.re), sum(aw.im));
   y = u*bSum/aSum;
