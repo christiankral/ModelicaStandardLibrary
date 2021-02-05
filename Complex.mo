@@ -94,15 +94,15 @@ operator record Complex "Complex number with overloaded operators"
 </html>"));
     end multiply;
 
-    function scalarProduct "Scalar product c1*c2 of two complex vectors"
+    function scalarProduct "Scalar product of two complex vectors c1 and c2"
       import Complex;
       input Complex c1[:] "Vector of Complex numbers 1";
       input Complex c2[size(c1,1)] "Vector of Complex numbers 2";
-      output Complex c3 "= c1*c2";
+      output Complex c3 "= Scalar product of c1 and c2";
     algorithm
-      c3 :=Complex(0);
+      c3 := Complex(0);
       for i in 1:size(c1,1) loop
-         c3 :=c3 + c1[i]*c2[i];
+        c3 := c3 + Modelica.ComplexMath.conj(c1[i]) * c2[i];
       end for;
 
     annotation(Inline=true, smoothOrder=100, Documentation(info="<html>
