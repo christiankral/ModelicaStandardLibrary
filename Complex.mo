@@ -106,8 +106,11 @@ operator record Complex "Complex number with overloaded operators"
       end for;
 
     annotation(Inline=true, smoothOrder=100, Documentation(info="<html>
-<p>This function returns the scalar product of two given arrays of Complex numbers.</p>
-</html>"));
+<p>This function returns the scalar product of two given vectors of Complex numbers of length <code>n</code>.</p>
+<blockquote><pre>
+c3 = sum(conjugate(c1[k]) * c2[k] for k in 1:n)
+</pre></blockquote>
+    </html>"));
     end scalarProduct;
     annotation (
       Documentation(info="<html>
