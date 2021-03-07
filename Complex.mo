@@ -98,7 +98,7 @@ operator record Complex "Complex number with overloaded operators"
       import Complex;
       input Complex c1[:] "Vector of Complex numbers 1";
       input Complex c2[size(c1,1)] "Vector of Complex numbers 2";
-      output Complex c3 "= Scalar product of c1 and c2";
+      output Complex c3 "Scalar product of c1 and c2";
     algorithm
       c3 := Complex(0);
       for i in 1:size(c1,1) loop
