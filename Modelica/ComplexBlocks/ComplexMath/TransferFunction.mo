@@ -40,5 +40,9 @@ The complex input u is multiplied by the complex transfer function (depending on
 y(jw) = ------------------------------------------------- * u(jw)
         a[1]*(jw)^[na-1] + a[2]*(jw)^[na-2] + ... + a[na]
 </pre></blockquote>
+</html>", revisions="<html>
+<ul>
+<li>2021: <em>Important bug fix</em> of the order of coefficients which has been interpreted wrongly, see <a href=\"https://github.com/modelica/ModelicaStandardLibrary/issues/3651\">#3651</a>
+</ul>
 </html>"));
 end TransferFunction;
