@@ -107,7 +107,7 @@ equation
       Tolerance=1e-06),
     Documentation(info="<html>
 <p>
-This model compares the magnetization characteristic of a non-hysteretic model with a Tellinen/Everett model including hysteresis, both for M330-50A. 
+This model compares the magnetisation characteristic of a non-hysteretic model with a Tellinen/Everett model including hysteresis, both for M330-50A. 
 </p>
 <p>
 Plot <code>B1</code> (flux density of the non-hysteretic model) and <code>B2</code> (flux density of the hysteretic model) 
