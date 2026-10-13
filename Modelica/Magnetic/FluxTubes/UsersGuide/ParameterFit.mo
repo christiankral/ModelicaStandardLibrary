@@ -2,8 +2,6 @@ within Modelica.Magnetic.FluxTubes.UsersGuide;
 model ParameterFit "Fitting the parameters"
   extends Modelica.Icons.Information;
   annotation (Documentation(info="<html>
-<p>The magnetisation characteristics of the originally included soft magnetic materials were compiled and measured respectively by Thomas Roschke. 
-Provision of this data is highly appreciated. He also formulated the approximation function used for description of the magnetisation characteristics of these materials.</p>
 <p>The workflow of parameter fitting for the approximation based on Smoothing Splines with Exponential Extrapolation is recommended as follows: </p>
 <p>
 For smoothing splines routines e.g. in <a href=\"https://de.mathworks.com/help/curvefit/csaps.html\">Matlab</a> or 
